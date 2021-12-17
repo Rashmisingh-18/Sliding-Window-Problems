@@ -7,7 +7,6 @@ O/P: 19
 Approach:
 1) The basic idea is a nested loop, the outer loop which will mark the starting point of the subarray of length k, the inner loop will run from the starting index to (index + k), k elements from starting index and print the maximum element among these k elements. This uses two for which, so Time Complexity: O(N * K).
 The outer loop runs n-k+1 times and the inner loop runs k times for every iteration of outer loop. So time complexity is O((n-k+1)*k) which can also be written as O(N * K) and Space Complexity: O(1)
-
 2) To optimize it, and to reduce time complexity; an efficient solution is that sum of a subarray (or window) of size k can be obtained in O(1) time using the sum of the previous subarray (or window) of size k. Except for the first subarray of size k, for other subarrays, we compute the sum by removing the first element of the last window and adding the last element of the current window. Here, the Time Complexity: O(n) and Auxiliary Space: O(1)
 */
 #include <iostream>
