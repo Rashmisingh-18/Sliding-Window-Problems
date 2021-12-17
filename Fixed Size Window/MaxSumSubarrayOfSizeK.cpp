@@ -1,7 +1,8 @@
 /*
 Problem Statement: Given an array of integers and a number k, find the maximum sum of a subarray of size k.
-I/P: Given Array: 2 5 1 8 2 9 1
-     Window Size: 3
+I/P: Array Size (n): 7
+     Window Size (k): 3
+     Given Array: 2 5 1 8 2 9 1
 O/P: 19
 
 Approach:
