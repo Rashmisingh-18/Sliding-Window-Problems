@@ -5,3 +5,6 @@ Here are the some problems of Sliding Window Concept, which can be solved using 
   2) First Nagative integer in every window of size k
   3) Count Occurences of anagram
   4) Max of all Subarrays of window size k
+
+* Variable Size Window:
+  1) Longest Substring with k Unique Characters 
