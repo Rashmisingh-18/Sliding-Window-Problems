@@ -1,6 +1,6 @@
 /*
-Problem Statement: Given a string str, find the length of the longest substring without repeating characters.
-I/P: abdefgabef
+Problem Statement: Given a string S, find the length of the longest substring without repeating characters.
+I/P: S= abdefgabef
 O/P: 6
 Longest substring are "abdefg" , "bdefga" and "defgab".
 
