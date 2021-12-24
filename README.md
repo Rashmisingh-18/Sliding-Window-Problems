@@ -9,3 +9,4 @@ Here are the some problems of Sliding Window Concept, which can be solved using 
 * Variable Size Window:
   1) Longest Substring with k Unique Characters 
   2) Longest Substring without repeating Characters 
+  3) Maximum Window Substring
